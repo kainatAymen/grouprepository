@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width,initial-scale=1'>
+  <title>Rumaisa - CV (HTML)</title>
+  <style>
+    body {
+      font-family: Inter, system-ui, Arial, helvetica, sans-serif;
+      max-width: 900px;
+      margin: 32px auto;
+      padding: 20px;
+      color: #0b1220;
+      background: #f7f8fb;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 14px;
+    }
+    h1 { margin: 0; font-size: 26px }
+    .meta { color: #4b5563; margin-bottom: 18px }
+    section {
+      background: #fff;
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 12px;
+      box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+    }
+    .page { margin-bottom: 10px }
+    pre {
+      white-space: pre-wrap;
+      font-family: inherit;
+      font-size: 14px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Curriculum Vitae — Rumaisa</h1>
+    <div class='meta'>Converted from PDF — simple HTML version</div>
+  </header>
+
+  <!-- Example: Page 1 content -->
+  <section class='page'>
+    <h2>Page 1</h2>
+    <pre>
+(Your PDF text content from page 1 will be here)
+    </pre>
+  </section>
+
+  <!-- Example: Page 2 content -->
+  <section class='page'>
+    <h2>Page 2</h2>
+    <pre>
+(Your PDF text content from page 2 will be here)
+    </pre>
+  </section>
+
+  <footer style='color:#6b7280;font-size:13px;margin-top:18px'>
+    Original PDF was converted to HTML.
+  </footer>
+</body>
+</html>
+this is rumaisa's CV here.
